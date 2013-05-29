@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://www.pirateslovedaisies.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+    <meta charset="UTF-8">
+
+
+
+	<title>Pirates Love Daisies: An HTML5 Tower Defence Strategy Game</title>
+
+    <!-- Facebook MetaData -->
+
+    <meta property="og:title" content="Pirates Love Daisies: An HTML5 Tower Defence Strategy Game">
+
+    <meta property="og:description" content="Pirates Love Daisies, the fun new Tower Defense game built with HTML5!">
+
+    <!-- End Facebook -->
+
+ 
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.pirateslovedaisies.com/favicon.ico">
+
+	<link href="http://www.pirateslovedaisies.com/css/main.css" rel="stylesheet">
+
+    <link href="http://www.pirateslovedaisies.com/css/trace.css" rel="stylesheet">
+
+
+
+	<script src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/compiled-scripts.js"></script><style type="text/css"></style>
+
+
+
+</head>
+
+
+
+<body>
+
+	
+
+    <div id="piratesLoveDaisies" style="top: 75px; left: 470px;">
+
+    	
+
+        <canvas id="fallingDaisies1" width="980" height="700" style="position: absolute; top: 0px; "></canvas>
+
+           	  
+
+		<div id="preloader" style="display: block;">
+
+            <canvas id="preloaderBar" width="240" height="36"></canvas>
+
+			<img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/preloaderGraphic.png" width="488" height="386">
+
+		</div>
+
+        
+
+        <canvas id="fallingDaisies2" width="980" height="700" style="position: absolute; top: 0px; "></canvas>
+
+        
+
+        <!-- UI screens are loaded into this div dynamically: -->
+
+		<div id="screens"></div>
+
+        
+
+        <div id="game" class="uiScreen">
+
+            <!-- Game UI -->
+
+            <div id="topNav">
+
+                <label id="daisyLabel" class="daisy">99</label>
+
+                <label id="moneyLabel" class="money">0</label>
+
+                <label id="pointsLabel" class="score">0</label>
+
+            </div>
+
+            
+
+            <div id="muteBtn" class="smallUIButton" onclick="toggleMute()">Mute</div>
+
+			<div id="togglePauseBtn" class="smallUIButton" onclick="togglePause()">Pause</div>
+
+			<div id="quitBtn" class="smallUIButton" onclick="handleGameQuit()">Quit</div>
+
+			
+
+            <div id="bottomNav">
+
+                <div class="menuButton hireButton"></div>                
+
+                <div class="menuButton hireButton"></div>                
+
+                <div class="menuButton hireButton"></div>                
+
+                <div class="menuButton hireButton"></div>                
+
+                <div class="menuButton hireButton"></div>
+
+                
+
+                <div id="upgradeButton" class="menuButton editButton"></div>                
+
+                <div id="retireButton" class="menuButton editButton"></div>
+
+             
+
+                <div id="nextWaveIndicator">
+
+                    <canvas width="100" height="30"></canvas>
+
+                    <div id="nextWaveButton"></div>
+
+                    <label class="nextWaveLabel"></label>
+
+                </div>
+
+                
+
+            </div>
+
+            
+
+            <!-- Game play area -->
+
+            <img id="backgroundImage" width="980" height="700">
+
+            <div class="tileCanvas">
+
+                <canvas id="tileCanvas" width="980" height="700"></canvas>
+
+            </div>
+
+            
+
+            <div id="uiOveray" class="uiCanvas">
+
+                <canvas id="uiCanvas" width="980" height="700"></canvas>
+
+            </div>
+
+            
+
+            <div id="gameCanvasDiv" class="animationCanvas">
+
+                <canvas id="gameCanvas" width="980" height="700"></canvas>
+
+            </div>
+
+
+
+            <div id="effectsDev" class="animationCanvas">
+
+                <canvas id="effectsCanvas" width="980" height="700"></canvas>
+
+            </div>
+
+            
+
+             <div id="gameOverlay"></div>        
+
+            
+
+        </div>
+
+         
+
+         
+
+    </div>
+
+    
+
+    
+
+    <div id="content" style="top: 60px; left: 470px;">
+
+    	<div id="credits">
+
+        	Concept, development, and creative direction by <a href="http://gskinner.com/" target="_blank">gskinner.com</a>.
+
+  			Illustration by <a href="http://pulpstudios.ca/" target="_blank">Pulp Studios</a>. 
+
+            Sound by <a href="mailto:washingtron@gmail.com">Washingtron, Inc</a>.
+
+    		Hosted on <a href="http://www.microsoft.com/windowsazure/scenarios/social-games/" target="_blank">Windows Azure</a>.
+
+            <!-- ! -->
+
+        </div>
+
+        <div id="effectsToggle">
+
+        	<div style="position:absolute; top:2px; z-index:2;">
+
+				<input type="checkbox" id="effects" onclick="toggleEffects()">
+
+				<label for="effects">Enable additional effects for IE9 (<a href="http://www.pirateslovedaisies.com/#" id="effectsToggleLink">What is this?</a>)</label>
+
+        	</div>
+
+        	<div id="shareBar" style="position:absolute; right:0; top:2px; text-align:right;">
+
+        		<b>Share:</b> &nbsp;
+
+                <a href="http://www.facebook.com/sharer.php?u=pirateslovedaisies.com&t=Pirates%20Love%20Daisies" target="_blank"><img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/facebook.png" title="Share on Facebook"></a> &nbsp;
+
+                <a href="http://twitter.com/share?text=Check%20out%20Pirates%20Love%20Daisies,%20the%20fun%20new%20Tower%20Defense%20game%20built%20with%20HTML5!%20%23PLD&url=http://pirateslovedaisies.com" target="_blank"><img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/twitter.png" title="Share on Twitter"></a> &nbsp;
+
+                <a href="http://profile.live.com/badge/?url=http://pirateslovedaisies.com&title=Pirates%20Love%20Daisies&description=Check%20out%20Pirates%20Love%20Daisies,%20the%20fun%20new%20Tower%20Defense%20game%20built%20with%20HTML5!" target="_blank"><img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/messenger.png" title="Share with Messenger"></a> &nbsp;
+
+                <a href="http://www.stumbleupon.com/submit?url=http://pirateslovedaisies.com&title=Check%20out%20Pirates%20Love%20Daisies,%20the%20fun%20new%20Tower%20Defense%20game%20built%20with%20HTML5!" target="_blank"><img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/stumble.png" title="Share on StumbleUpon"></a> &nbsp;
+
+                <a href="http://www.digg.com/submit?url=http://pirateslovedaisies.com&title=Check%20out%20Pirates%20Love%20Daisies,%20the%20fun%20new%20Tower%20Defense%20game%20built%20with%20HTML5!" target="_blank"><img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/digg.png" title="Share on Digg"></a> &nbsp;
+
+                <a href="http://www.delicious.com/submit?url=http://pirateslovedaisies.com&title=Check%20out%20Pirates%20Love%20Daisies,%20the%20fun%20new%20Tower%20Defense%20game%20built%20with%20HTML5!" target="_blank"><img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/delicious.png" title="Share on Delicious"></a> &nbsp;
+
+                <a href="http://www.reddit.com/submit?url=http://pirateslovedaisies.com&title=Check%20out%20Pirates%20Love%20Daisies,%20the%20fun%20new%20Tower%20Defense%20game%20built%20with%20HTML5!" target="_blank"><img src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/reddit.png" title="Share on Reddit"></a>
+
+            </div>
+
+        	<div style="position:absolute; left:460px; top:2px;">
+
+        		<iframe src="about:blank" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowtransparency="true"></iframe>
+
+        	</div>
+
+        
+
+        </div>
+
+     </div>
+
+     <div id="unsupportedBrowser" style="display: none;">
+
+        <p><strong>Your browser appears to be unsupported!</strong></p>
+
+        <p>Pirates ♥ Daisies is a tower defense game, developed using JavaScript and HTML5 features, many of which are not supported by older browsers.</p>
+
+        <p>Current supported browsers are:</p>
+
+        <ul>
+
+        	<li><a href="http://windows.microsoft.com/ie9">Internet Explorer 9</a> (Recommended)</li> 
+
+            <li><a href="http://www.apple.com/safari/download/">Safari 5</a></li>
+
+            <li><a href="http://www.google.com/chrome">Chrome 6 or higher</a></li>
+
+            <li><a href="http://www.opera.com/">Opera 10 or higher</a></li>
+
+            <li><a href="http://www.mozilla.com/en-US/firefox/personal.html">Firefox 3.6</a></li>
+
+        </ul>
+
+        <br>
+
+    </div>
+
+    
+
+     <div id="fontPreload" style="font-family: freeBooterFont; visibility: hidden">.</div>
+
+     <!-- Start of StatCounter Code -->
+
+    <script type="text/javascript">
+
+        var sc_project = 6480135;
+
+        var sc_invisible = 1;
+
+        var sc_security = "32b11e7b"; 
+
+    </script>
+
+
+
+    <script type="text/javascript" src="./Pirates Love Daisies  An HTML5 Tower Defence Strategy Game_files/counter.js"></script>
+
+    <noscript>&lt;div class="statcounter"&gt;&lt;a title="tumblr visitor" href="http://statcounter.com/tumblr/" target="_blank"&gt;
+
+    &lt;img class="statcounter" src="http://c.statcounter.com/6480135/0/32b11e7b/1/" alt="tumblr visitor"&gt;&lt;/a&gt;&lt;/div&gt;</noscript>
+
+    <!-- End of StatCounter Code -->
+
+
+
+
+
+</body></html>
