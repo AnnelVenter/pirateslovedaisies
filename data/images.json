@@ -1,0 +1,609 @@
+{
+	"basePath": "img/", 
+	"images":
+	[
+		 {
+		   "src":"spritesheets/RatWalk_62x63.png",
+		   "name":"rat",
+		   "label":"James",
+		   "type":"animation",
+		   "data":{"minArmor": 0, "maxArmor": 8.8, "minHP": 10, "maxHP": 450, "scoreValue": 125, "minSpeed": 2.3, "maxSpeed": 3.3, "minSpeedMultiplier": 0.3, "ignoresImpassible": false, "isAir": false, "shadowOffset":[2,3]},
+		   "w":62,
+		   "h":63,
+		   "states": {
+					"forward": {"start":41, "end":59, "flipState":"forwardLeft"},
+					"down":{"start":20, "end":40, "flipState":"downLeft"},
+					"up":{"start":0, "end":19, "flipState":"upLeft"}
+					}
+		 },
+		 
+		 {
+		   "src":"spritesheets/Crab_62x51.png",
+		   "name":"crab",
+			"label":"Pinchy",
+		   "type":"animation",
+		   "data":{"minArmor": 1, "maxArmor": 19.7, "minHP": 20, "maxHP": 800, "scoreValue": 175, "minSpeed": 1.25, "maxSpeed": 1.75, "minSpeedMultiplier": 0.6, "ignoresImpassible": false, "isAir": false, "shadowOffset":[3,3]},
+		   "w":62,
+		   "h":51,
+		   "registrationPoint": [26,26],
+		   "states": {
+			   		"down":{"start":0, "end":19, "flipState":"downLeft"},
+					"forward":{"start":21, "end":40, "flipState":"forwardLeft"},
+					"up": {"start":42, "end":61, "flipState":"upLeft"}
+			}
+		 },
+		 
+		 {
+			 "src":"spritesheets/Octopus_65x73.png",
+			 "name":"octopus",
+			 "label":"Squidgy",
+			 "type":"animation",
+			 "data":{"minArmor": 0, "maxArmor": 7.6, "minHP": 15, "maxHP": 1250, "scoreValue": 250, "minSpeed": 1.9, "maxSpeed": 2.6, "minSpeedMultiplier": 0.4, "ignoresImpassible": false, "isAir": false, "shadowOffset":[0,12]},
+			 "w":65,
+			 "h":73,
+			 "states":{
+				 "up":{"start":42,"end":61, "flipState":"upLeft"},
+				 "forward":{"start":21,"end":40, "flipState":"forwardLeft"},
+				 "down":{"start":0,"end":19, "flipState":"downLeft"}
+			 }
+		 },
+				
+		 {
+			"src":"spritesheets/Gull_72x60.png",
+			"name":"gull",
+		    "label":"Squawky",
+			"type":"animation",
+			"w":72,
+			"h":60,
+			"registrationPoint":[37,52],
+			"data":{"minArmor": 0, "maxArmor": 5.2, "minHP": 4, "maxHP": 275, "scoreValue": 175, "minSpeed": 1.50, "maxSpeed": 2.40, "minSpeedMultiplier": 0.25, "ignoresImpassible": true, "isAir": true, "shadowOffset":[-2,25]},
+			"states":{
+				"up":{"start":36,"end":52, "flipState":"upLeft"},
+				"down":{"start":0,"end":16, "flipState":"downLeft"},
+				"forward":{"start":18,"end":34, "flipState":"forwardLeft"}
+			}
+		 },
+		 
+		 {
+			"src":"spritesheets/Kraken_86x98.png",
+			"name":"kraken",
+			"label":"Kraky",
+			"type":"animation",
+			"data":{"minArmor": 5.4, "maxArmor": 24.4, "minHP": 300, "maxHP": 16000, "scoreValue": 5000, "minSpeed": 1.80, "maxSpeed": 2.10, "minSpeedMultiplier": 0.5, "ignoresImpassible": false, "isAir": false, "shadowOffset":[0,5]},
+			"w":86,
+			"h":98,
+			"registrationPoint":[40,54],
+			"states":{
+				"up":{"start":42,"end":61, "flipState":"upLeft"},
+				"forward":{"start":21,"end":40, "flipState":"forwardLeft"},
+				"down":{"start":0,"end":19, "flipState":"downLeft"}
+			}
+		},
+		
+		{
+			"src":"spritesheets/HealthMeter_43x10.png",
+			"name":"HealthMeter",
+			"type":"animation",
+			"states":{},
+			"data":{"totalFrames":19},
+			"w":43,
+			"h":10,
+			"registrationPoint":[21,45]
+		},
+								
+		{
+		   "src":"spritesheets/Daisy_36x40.png",
+		   "name":"daisy",
+		   "label":"The Precious",
+		   "type":"animation",
+		   "w":36,
+		   "h":40,
+		   "states": {
+					"up1": {"start":0},
+					"up2":{"start":1},
+					"up3":{"start":2},
+					"up4":{"start":3},
+					"hole":{"start":4},
+					"dropped1":{"start":5},
+					"dropped2":{"start":6},
+					"dropped3":{"start":7},
+					"dropped4":{"start":8},
+					"dropped5":{"start":9},
+					"dropped6":{"start":10},
+					"indicator":{"start":11}
+					},
+			"registrationPoint":[16,27]
+		},
+		
+		{
+			"src":"spritesheets/motivationFace_27x26.png",
+			"type":"animation",
+			"name":"motivationStar",
+			"w":27,
+			"h":26,
+			"states":{
+				"level1": {"start":0},
+				"level2":{"start":1},
+				"level3":{"start":2}
+			}
+		},
+		
+		{
+			"src":"spritesheets/SlowStars_30x43.png",
+			"type":"animation",
+			"name":"slowStars",
+			"w":30,
+			"h":43,
+			"registrationPoint":[15,43],
+			"states":{
+				"slow": {"start":0, "end":41}	
+			},
+			"label":"Dazey"
+		},
+				
+		 {
+			"src": "shadow.png",
+			"name": "shadow",
+			"w": 50,
+			"h": 50,
+			"registrationPoint": [25,25]
+		},
+		
+		{
+			"src": "shadowSmall.png",
+			"name": "shadowSmall",
+			"w": 30,
+			"h": 30,
+			"registrationPoint": [15,15]
+		},
+		
+		{
+			"src": "shadowLarge.png",
+			"name": "shadowLarge",
+			"w": 70,
+			"h": 70,
+			"registrationPoint": [35,35]
+		},
+				
+		{
+			 "src": "piratePlacementIcon.png",
+			 "name": "dropMarker",
+			 "type":"animation",
+			 "w": 18,
+			 "h": 13,
+			 "states": { "default": 0 }
+		 },
+		 
+		 {
+			 "src":"EditOptions_26x31.png",
+			 "name":"editOptions",
+			 "type":"animation",
+			 "w":26,
+			 "h":31,
+			 "registrationPoint":[-1,4],
+			 "states":{
+				 "upgradeUp":{"start":0}, 
+				 "upgradeOver":{"start":1}, 
+				 "retireUp":{"start":2}, 
+				 "retireOver":{"start":3}
+			 }
+		},
+		
+		{
+			"src":"MenuButton_background.png",
+			"type":"animation",
+			"name": "MenuButton_background",
+			"w":65, "h":62,
+			"registrationPoint":[0,0],
+			"states": { "default" : 0 }
+		},
+		
+		{
+			"src":"coin.png",
+			"name": "coin",
+			"w":22, "h":22,
+			"registrationPoint":[0,0]
+		},
+		
+		{
+			"src":"spritesheets/CannonProjectile_12x12.png",
+			"type":"animation",
+			"name":"cannonProjectile",
+			"w":12,
+			"h":12,
+			"registrationPoint":[6,5],
+			"states":{
+				"l1":{ "start": 0, "end": 19 },
+				"l2":{ "start": 21, "end": 40 },
+				"l3":{ "start": 42, "end": 62 }
+			}
+		},
+		
+		{
+			"src":"spritesheets/CannonExplosion_117x115.png",
+			"name":"cannonExplosion",
+			"type":"animation",
+			"loopAnimations":false,
+			"w":117,
+			"h":115,
+			"registrationPoint":[47,60],
+			"states":{
+				"l1":{ "start": 0, "end": 15 },
+				"l2":{ "start": 21, "end": 40 },
+				"l3":{ "start": 42, "end": 61 }
+			}
+		},
+		
+		{
+			"src":"spritesheets/SpongeProjectile_26x26.png",
+			"name":"spongeProjectile",
+			"type":"animation",
+			"w":26,
+			"h":26,
+			"states":{
+				"l1":{ "start": 0, "end": 19 },
+				"l2":{ "start": 21, "end": 40 },
+				"l3":{ "start": 42, "end": 61 }
+			}
+		},
+		
+		{
+			"src":"spritesheets/SpongeExplosion_104x98.png",
+			"name":"spongeExplosion",
+			"type":"animation",
+			"loopAnimations":false,
+			"w":104,
+			"h":98,
+			"registrationPoint":[48,55],
+			"states":{
+				"l1":{ "start": 0, "end": 20},
+				"l2":{ "start": 21, "end": 41},
+				"l3":{ "start": 42, "end": 61}
+			}
+		},
+		
+		{
+			"src":"spritesheets/SabreProjectile_54x47.png",
+			"name":"sabreProjectile",
+			"type":"animation",
+			"w":54,
+			"h":47,
+			"registrationPoint":[-14,44],
+			"states":{
+				"l1":{ "start": 0, "end":20 },
+				"l2":{ "start": 21, "end":41 },
+				"l3":{ "start": 42, "end":61 }
+			}
+		},
+		
+		{
+			"src":"spritesheets/Death_50x51.png",
+			"type":"animation",
+			"name":"deathAnimation",
+			"loopAnimations":false,
+			"w":50,
+			"h":51,
+			"registrationPoint":[25,31],
+			"states":{
+				"death":{ "start": 0, "end": 19 }	
+			}
+		},
+		
+		{
+			"src":"spritesheets/effectBlackFlies_80x80.png",
+			"type":"animation",
+			"name":"effectBlackFlies_old",
+			"w":80,
+			"h":80,
+			"data":{"persist":true, "loop":true},
+			"states":{
+				"stopped":{ "start":0, "end":0 },
+				"loop":{ "start":1, "end":175 }
+			}
+		},
+
+		{
+			"src":"spritesheets/effectBlackFlies_90x84.png",
+			"name":"effectBlackFlies",
+			"h":84,
+			"w":90,
+			"type":"animation",
+			"data":{"persist":true, "loop":true},
+			"states":{
+				"stopped":{ "start":0, "end":0 },
+				"loop":{ "start":1, "end":174 }
+			}
+		},
+		
+		{
+			"src":"spritesheets/effectGrassLarge_21x23.png",
+			"type":"animation",
+			"name":"effectGrassLarge",
+			"w":21,
+			"h":23,
+			"data":{"persist":true},
+			"states":{
+				"loop":{ "start":0, "end":79 }				
+			}
+		},
+		
+		{
+			"src":"spritesheets/effectGrassPatch_115x42.png",
+			"type":"animation",
+			"name":"effectGrassPatch",
+			"w":115,
+			"h":42,
+			"data":{"persist":true},
+			"states":{
+				"loop":{ "start":0, "end":288 }
+			}
+		},
+		
+		{
+			"src":"spritesheets/effectSeaGrass_20x31.png",
+			"type":"animation",
+			"name":"effectSeaGrass",
+			"w":20,
+			"h":31,
+			"data":{"persist":true},
+			"states":{
+				"loop":{ "start":0, "end":90 }		
+			}
+		},
+		
+		{
+			"src":"spritesheets/effectWindLarge_130x67.png",
+			"type":"animation",
+			"name":"effectWindLarge",
+			"w":130,
+			"h":67,
+			"data": { "layer":"top" },
+			"states":{
+				"loop":{ "start":0, "end":64 }		
+			}
+		},
+		
+		{
+			"src":"spritesheets/effectWindSmall_88x51.png",
+			"type":"animation",
+			"name":"effectWindSmall",
+			"w":88,
+			"h":51,
+			"data": { "layer":"top" },
+			"states":{
+				"loop":{ "start":0, "end":64 }		
+			}
+		},
+		
+		{
+			"src":"spritesheets/effectWavecap_17x4.png",
+			"type":"animation",
+			"name":"effectWavecap",
+			"w":17,
+			"h":4,
+			"states":{
+				"loop":{ "start":0, "end":159 }
+			}
+		},
+				
+		 {
+			"src":"spritesheets/Sabre_88x87.png",
+			"name":"sabre",
+			"label":"Inigo",
+			"loopAnimations":false,
+			"type":"animation",
+			"data":{"hitsAir":false},
+			"w":88,
+			"h":87,
+			"registrationPoint":[35,74],
+			"states":{
+				"l1StaticDR":{"start":0,"end":0, "flipState":"l1StaticDL"},
+				"l1StaticR":{"start":1,"end":1, "flipState":"l1StaticL"},
+				"l1StaticUR":{"start":2,"end":2, "flipState":"l1StaticUL"},
+				"l1BlinkDR":{"start":4,"end":4, "flipState":"l1BlinkDL"},
+				"l1BlinkR":{"start":5,"end":5, "flipState":"l1AttackDL"},
+				"l1AttackDR":{"start":7,"end":27, "flipState":"l1AttackDL"},
+				"l1AttackR":{"start":29,"end":48, "flipState":"l1AttackL"},
+				"l1AttackUR":{"start":50,"end":70, "flipState":"l1AttackUL"},
+				
+				"l2StaticDR":{"start":72,"end":72, "flipState":"l2StaticDL"},
+				"l2StaticR":{"start":73,"end":73, "flipState":"l2StaticL"},
+				"l2StaticUR":{"start":74,"end":74, "flipState":"l2StaticUL"},
+				"l2BlinkDR":{"start":76,"end":76, "flipState":"l2BlinkDL"},
+				"l2BlinkR":{"start":77,"end":77, "flipState":"l2BlinkL"},
+				"l2AttackDR":{"start":79,"end":99, "flipState":"l2AttackDL"},
+				"l2AttackR":{"start":101,"end":121, "flipState":"l2AttackL"},
+				"l2AttackUR":{"start":123,"end":143, "flipState":"l2AttackUL"},
+				
+				"l3StaticDR":{"start":145,"end":145, "flipState":"l3StaticDL"},
+				"l3StaticR":{"start":146,"end":146, "flipState":"l3StaticL"},
+				"l3StaticUR":{"start":147,"end":147, "flipState":"l3StaticUL"},
+				"l3BlinkDR":{"start":149,"end":149, "flipState":"l3BlinkDL"},
+				"l3BlinkR":{"start":150,"end":150, "flipState":"l3BlinkL"},
+				"l3AttackDR":{"start":152,"end":172, "flipState":"l3AttackDL"},
+				"l3AttackR":{"start":174,"end":194, "flipState":"l3AttackL"},
+				"l3AttackUR":{"start":196,"end":215, "flipState":"l3AttackUL"}
+			}
+		},
+		
+		{
+			"src":"spritesheets/Shooter_85x77.png",
+			"name":"shooter",
+			"label":"Scarlett",
+			"type":"animation",
+			"loopAnimations":false,
+			"data":{"hitsAir":true},
+			"w":85,
+			"h":77,
+			"registrationPoint":[32,64],
+			"states":{
+				"l1StaticDR":{"start":0,"end":0, "flipState":"l1StaticDL"},
+				"l1StaticR":{"start":1,"end":1, "flipState":"l1StaticL"},
+				"l1StaticUR":{"start":2,"end":2, "flipState":"l1StaticUL"},
+				"l1BlinkDR":{"start":4,"end":4, "flipState":"l1BlinkDL"},
+				"l1BlinkR":{"start":5,"end":5, "flipState":"l1BlinkL"},
+				"l1AttackDR":{"start":7,"end":26, "flipState":"l1AttackDL"},
+				"l1AttackR":{"start":28,"end":48, "flipState":"l1AttackL"},
+				"l1AttackUR":{"start":50,"end":69, "flipState":"l1AttackUL"},
+				
+				"l2StaticDR":{"start":71,"end":71, "flipState":"l2StaticDL"},
+				"l2StaticR":{"start":72,"end":72, "flipState":"l2StaticL"},
+				"l2StaticUR":{"start":73,"end":73, "flipState":"l2StaticUL"},
+				"l2BlinkDR":{"start":75,"end":75, "flipState":"l2BlinkDL"},
+				"l2BlinkR":{"start":76,"end":76, "flipState":"l2BlinkL"},
+				"l2AttackDR":{"start":78,"end":97, "flipState":"l2AttackDL"},		
+				"l2AttackR":{"start":99,"end":118, "flipState":"l2AttackL"},
+				"l2AttackUR":{"start":120,"end":139, "flipState":"l2AttackUL"},
+				
+				"l3StaticDR":{"start":141,"end":141, "flipState":"l3StaticDL"},
+				"l3StaticR":{"start":142,"end":142, "flipState":"l3StaticL"},
+				"l3StaticUR":{"start":143,"end":143, "flipState":"l3StaticUL"},		
+				"l3BlinkDR":{"start":145,"end":145, "flipState":"l3BlinkDL"},		
+				"l3BlinkR":{"start":146,"end":146, "flipState":"l3BlinkL"},	
+				"l3AttackDR":{"start":148,"end":167, "flipState":"l3AttackDL"},
+				"l3AttackR":{"start":169,"end":188, "flipState":"l3AttackL"},
+				"l3AttackUR":{"start":190,"end":209, "flipState":"l3AttackUL"}
+			}
+		},
+		
+		{
+			"src":"spritesheets/Captain_53x55.png",
+			"name":"captain",
+			"label":"The Captain",
+			"type":"animation",
+			"loopAnimations":false,
+			"data":{"hitsAir":false},
+			"w":53,
+			"h":55,
+			"registrationPoint":[26,48],
+			"states":{
+				"l1StaticDL":{"start":0,"end":1},
+				"l1BlinkDL":{"start":2,"end":3},
+				"l1AttackDL":{"start":4,"end":24},
+				
+				"l2StaticDL":{"start":26,"end":27},
+				"l2BlinkDL":{"start":28,"end":29},
+				"l2AttackDL":{"start":30,"end":50},
+				
+				"l3StaticDL":{"start":52,"end":53},
+				"l3BlinkDL":{"start":54,"end":55},
+				"l3AttackDL":{"start":56,"end":76}
+			}
+		},
+		
+		{
+			"src": "spritesheets/CabinBoy_57x64.png",			
+			"name":"cabinBoy",
+			"label":"Billy",			
+			"type": "animation",
+			"loopAnimations":false,
+			"data":{"hitsAir":true},			
+			"w": 57,
+			"h": 64,
+			"registrationPoint": [ 22, 49 ],			
+			"states": {
+				"l1StaticDR": { "start": 0, "end": 0, "flipState": "l1StaticDL"},
+				"l1StaticR": { "start": 1, "end": 1, "flipState": "l1StaticL"},
+				"l1StaticUR": { "start": 2, "end": 3, "flipState": "l1StaticUL"},
+				"l1BlinkDR": {"start": 4, "end": 4, "flipState": "l1BlinkDL"},
+				"l1BlinkR": { "start": 5, "end": 6, "flipState": "l1BlinkL"},
+				"l1AttackDR": { "start": 7, "end": 26, "flipState": "l1AttackDL"},
+				"l1AttackR": { "start": 28, "end": 47, "flipState": "l1AttackL"},
+				"l1AttackUR": {"start": 49, "end": 68, "flipState": "l1AttackUL"},				
+				
+				"l2StaticDR": { "start": 70, "end": 70, "flipState": "l2StaticDL"},
+				"l2StaticR": { "start": 71, "end": 71, "flipState": "l2StaticL"},				
+				"l2StaticUR": { "start": 72, "end": 73, "flipState": "l2StaticUL"},				
+				"l2BlinkDR": { "start": 74, "end": 74, "flipState": "l2BlinkDL"},				
+				"l2BlinkR": { "start": 75, "end": 76, "flipState": "l2BlinkL"},				
+				"l2AttackDR": { "start": 77, "end": 96, "flipState": "l2AttackDL"},
+				"l2AttackR": { "start": 98, "end": 118, "flipState": "l2AttackL"},				
+				"l2AttackUR": { "start": 120, "end": 140, "flipState": "l2AttackUL"},
+				
+				"l3StaticDR": { "start": 142, "end": 142, "flipState": "l3StaticDL" },				
+				"l3StaticR": { "start": 143, "end": 143, "flipState": "l3StaticL" },				
+				"l3StaticUR": { "start": 144, "end": 145, "flipState": "l3StaticUL" },				
+				"l3BlinkDR": { "start": 146, "end": 146, "flipState": "l3BlinkDL" },
+				"l3BlinkR": { "start": 147, "end": 148, "flipState": "l3BlinkL" },				
+				"l3AttackDR": { "start": 149, "end": 169, "flipState": "l3AttackDL" },				
+				"l3AttackR": { "start": 171, "end": 191, "flipState": "l3AttackL" },				
+				"l3AttackUR": { "start": 193, "end": 213, "flipState": "l3AttackUL" }		
+			}
+		},
+		
+		{
+			"src": "spritesheets/Cannon_117x80.png",
+			"name": "cannon",
+			"label": "Lenny",
+			"type": "animation",	
+			"loopAnimations":false,
+			"data":{"hitsAir":false},					
+			"w": 117,
+			"h": 80,
+			"registrationPoint": [ 55, 61 ],
+			"states": {
+				"l1StaticDR": { "start": 0, "end": 0 },
+				"l1StaticR": { "start": 1, "end": 1 },
+				"l1StaticUR": { "start": 2, "end": 2 },
+				
+				"l1StaticUL": { "start": 3, "end": 3 },
+				"l1StaticL": { "start": 4, "end": 4 },
+				"l1StaticDL": { "start": 5, "end": 6 },
+				
+				"l1BlinkDR": { "start": 7, "end": 7 },
+				"l1BlinkR": { "start": 8, "end": 8 },
+				"l1BlinkL": { "start": 9, "end": 9 },
+				"l1BlinkDL": {"start": 10, "end": 11 }, 
+				
+				"l1AttackDR": { "start": 12, "end": 31 },
+				"l1AttackR": { "start": 33, "end": 52 },
+				"l1AttackUR": { "start": 54, "end": 73 },
+				"l1AttackUL": { "start": 75, "end": 94 },
+				"l1AttackL": { "start": 96, "end": 115 },
+				"l1AttackDL": { "start": 117, "end": 136 },
+				
+				"l2StaticDR": { "start": 138, "end": 138 },
+				"l2StaticR": { "start": 139, "end": 139 },
+				"l2StaticUR": { "start": 140, "end": 140 },
+				"l2StaticUL": { "start": 141, "end": 141 },
+				"l2StaticL": { "start": 142, "end": 142 },
+				"l2StaticDL": { "start": 143, "end": 144 },
+				
+				"l2BlinkDR": { "start": 145, "end": 145 },
+				"l2BlinkR": { "start": 146, "end": 146 },
+				"l2BlinkL": { "start": 147, "end": 147 },
+				"l2BlinkDL": { "start": 148, "end": 149 },
+				
+				"l2AttackDR": { "start": 150, "end": 169 },
+				"l2AttackR": { "start": 171, "end": 190 },
+				"l2AttackUR": { "start": 192, "end": 211 },
+				"l2AttackUL": { "start": 213, "end": 232 },
+				"l2AttackL": { "start": 234, "end": 253 },
+				"l2AttackDL": { "start": 255, "end": 274 },
+				
+				"l3StaticDR": { "start": 276, "end": 276 },
+				"l3StaticR": { "start": 277, "end": 277 },
+				"l3StaticUL": { "start": 279, "end": 279 },
+				"l3StaticUR": { "start": 278, "end": 278 },
+				"l3StaticL": { "start": 280, "end": 280 },
+				"l3StaticDL": { "start": 281, "end": 282 },
+				
+				"l3BlinkDR": { "start": 283, "end": 283 },
+				"l3BlinkR": { "start": 284, "end": 284 },
+				"l3BlinkL": { "start": 285, "end": 285 },
+				"l3BlinkDL": { "start": 286, "end": 287 },
+				
+				"l3AttackDR": { "start": 288, "end": 307 },
+				"l3AttackR": { "start": 309, "end": 328 },
+				"l3AttackUR": { "start": 330, "end": 349 },
+				"l3AttackUL": { "start": 351, "end": 370 },
+				"l3AttackL": { "start": 372, "end": 391 },
+				"l3AttackDL": { "start": 393, "end": 412 }
+			}
+		},
+		{"src":"sHead.png","type":"animation","name":"sHead","registrationPoint": [ 15, 60],"w":36,"h":51},
+		{"src":"lHead.png","type":"animation","name":"lHead","registrationPoint": [ 15, 60],"w":34,"h":47},
+		{"src":"gHead.png","type":"animation","name":"gHead","registrationPoint": [ 15, 70],"w":38,"h":49},
+		{"src":"eHead.png","type":"animation","name":"eHead","registrationPoint": [ 20, 60],"w":40,"h":50}		 		
+	 ]
+}

@@ -1,0 +1,1333 @@
+{
+    "startGold": 550,
+    "waves": [
+        {
+            "nextWave": 12 
+        },
+        {
+            "nextWave": 30,
+            "timing": 4,
+            "interval": 0.4,
+            "reward": 13,
+            "level": 1,
+            "units": [
+                {
+					"timing": 0,
+					"exits": [2],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [3],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [4],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [5],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [0],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [1],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [6],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [7],
+                    "type": "rat",
+                    "count": 1
+                }
+            ] 
+        },
+        {
+            "nextWave": 30,
+            "timing": 2,
+            "interval": 0.4,
+            "reward": 13,
+            "level": 1,
+            "units": [
+                {
+					"timing": 0,
+					"exits": [2],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [3],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [4],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"exits": [5],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [0],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [1],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [6],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"exits": [7],
+                    "type": "crab",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "nextWave": 30,
+            "timing": 1,
+            "interval": 0.5,
+            "reward": 13,
+            "level": 1,
+            "units": [
+                {
+            		"timing": 0,
+					"exits": [1],
+                    "type": "octopus",
+                    "count": 1 
+                },
+                {
+					"exits": [6],
+                    "type": "octopus",
+                    "count": 1 
+                },
+                {
+            		"timing": 0,
+					"exits": [2],
+                    "type": "octopus",
+                    "count": 1 
+                },
+                {
+					"exits": [5],
+                    "type": "octopus",
+                    "count": 1 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 30,
+            "timing": 0,
+            "interval": 0.5,
+            "reward": 13,
+            "level": 1,
+            "units": [
+                {
+					"exits": [2],
+                    "type": "gull",
+                    "count": 1 
+                },
+                {
+					"exits": [3],
+                    "type": "gull",
+                    "count": 1 
+                },
+                {
+					"exits": [4],
+                    "type": "gull",
+                    "count": 1 
+                },
+                {
+					"exits": [5],
+                    "type": "gull",
+                    "count": 1 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 35,
+            "timing": 0.3,
+            "interval": 0.5,
+            "reward": 13,
+            "level": 4,
+            "units": [
+                {
+					"exits": [0],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [1],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [2],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [3],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [4],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [5],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [6],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [7],
+                    "type": "rat",
+                    "count": 1
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0.6,
+            "interval": 1.2,
+            "reward": 13,
+            "level": 4,
+            "units": [
+                {
+					"exits": [1, 3],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+					"exits": [4, 6],
+                    "type": "crab",
+                    "count": 4
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.3,
+            "interval": 0.5,
+            "reward": 13,
+            "level": 6,
+            "units": [
+                {
+					"timing": 0,
+					"exits": [0, 2],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"exits": [7, 5],
+                    "type": "crab",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [1, 3],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"exits": [4, 6],
+                    "type": "rat",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [1, 3],
+                    "type": "octopus",
+                    "count": 1
+                },
+                {
+					"exits": [4, 6],
+                    "type": "octopus",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [0, 1],
+                    "type": "gull",
+                    "count": 1
+                },
+                {
+					"exits": [3, 5],
+                    "type": "gull",
+                    "count": 1
+                },
+                {
+					"timing": 0,
+					"exits": [2, 4],
+                    "type": "gull",
+                    "count": 1
+                },
+                {
+					"exits": [6, 7],
+                    "type": "gull",
+                    "count": 1
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1,
+            "interval": 0.75,
+            "reward": 16,
+            "level": 6,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 7
+                },
+                {
+					"exits": [6, 7],
+                    "type": "crab",
+                    "count": 7
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.5,
+            "interval": 0.75,
+            "reward": 16,
+            "level": 8,
+            "units": [
+                {
+					"exits": [2, 4],
+                    "type": "rat",
+                    "count": 7
+                },
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 7
+                },
+                {
+                    "type": "octopus",
+                    "count": 4 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1,
+            "interval": 0.75,
+            "reward": 16,
+            "level": 9,
+            "units": [
+                {
+					"exits": [2, 4],
+                    "type": "rat",
+                    "count": 11
+                },
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 11
+                },
+                {
+                    "type": "gull",
+                    "count": 6 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.5,
+            "interval": 0.75,
+            "reward": 16,
+            "level": 10,
+            "units": [
+                {
+                    "type": "rat",
+                    "count": 6
+                },
+                {
+                    "type": "crab",
+                    "count": 4 
+                },
+                {
+                    "type": "gull",
+                    "count": 4 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 6.4,
+            "interval": 1.6,
+            "reward": 16,
+            "level": 12,
+            "units": [
+                {
+            		"timing": 0,
+					"exits": [2, 4],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+					"exits": [3, 5],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+            		"timing": 0.6,
+					"exits": [0, 1],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+            		"timing": 0.6,
+					"exits": [3, 5],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+            		"timing": 0.6,
+					"exits": [6, 7],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [2, 4],
+                    "type": "gull",
+                    "count": 2
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 3,
+            "interval": 1.5,
+            "reward": 16,
+            "level": 14,
+            "units": [
+                {
+            		"timing": 0.5,
+					"exits": [0, 2],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+            		"timing": 0.5,
+					"exits": [1, 3],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+            		"timing": 0.5,
+					"exits": [5, 7],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+					"exits": [4, 6],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+                    "type": "octopus",
+                    "count": 4 
+                },
+                {
+                    "type": "gull",
+                    "count": 4 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0.6,
+            "interval": 3,
+            "reward": 20,
+            "level": 18,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 12 
+                },
+                {
+					"exits": [6, 7],
+                    "type": "rat",
+                    "count": 12 
+                },
+                {
+					"exits": [2, 4],
+                    "type": "rat",
+                    "count": 12 
+                },
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 12 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 3,
+            "interval": 0.75,
+            "reward": 20,
+            "level": 22,
+            "units": [
+                {
+                    "type": "crab",
+                    "count": 14
+                },
+                {
+                    "type": "octopus",
+                    "count": 4 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 5,
+            "interval": 1,
+            "reward": 20,
+            "level": 25,
+            "units": [
+                {
+           			"timing": 0,
+                    "type": "rat",
+                    "count": 4
+                },
+                {
+           			"timing": 0,
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+           			"timing": 0,
+					"exits": [0, 2],
+                    "type": "octopus",
+                    "count": 2
+                },
+                {
+					"exits": [5, 7],
+                    "type": "octopus",
+                    "count": 2
+                },
+                {
+           			"timing": 0,
+					"exits": [1, 3],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [4, 6],
+                    "type": "gull",
+                    "count": 3
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0,
+            "interval": 1,
+            "reward": 20,
+            "level": 28,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 12 
+                },
+                {
+					"exits": [6, 7],
+                    "type": "crab",
+                    "count": 12 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0.75,
+            "interval": 1.5,
+            "reward": 20,
+            "level": 31,
+            "units": [
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 2 
+                },
+                {
+					"exits": [2, 4],
+                    "type": "rat",
+                    "count": 2 
+                },
+                {
+					"exits": [0, 2],
+                    "type": "gull",
+            		"level": 28,
+                    "count": 3
+                },
+                {
+					"exits": [1, 3],
+                    "type": "gull",
+            		"level": 28,
+                    "count": 3
+                },
+                {
+					"exits": [4, 6],
+                    "type": "gull",
+            		"level": 28,
+                    "count": 3
+                },
+                {
+					"exits": [5, 7],
+                    "type": "gull",
+            		"level": 28,
+                    "count": 3
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 4,
+            "interval": 1,
+            "reward": 20,
+            "level": 34,
+            "units": [
+                {
+           			"timing": 0,
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 6
+                },
+                {
+					"exits": [6, 7],
+                    "type": "rat",
+                    "count": 6
+                },
+                {
+                    "type": "gull",
+                    "count": 4 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 2,
+            "interval": 0.8,
+            "reward": 20,
+            "level": 38,
+            "units": [
+                {
+           			"timing": 0.5,
+					"exits": [0, 2],
+                    "type": "rat",
+                    "count": 2 
+                },
+                {
+           			"timing": 0.5,
+					"exits": [1, 3],
+                    "type": "rat",
+                    "count": 2 
+                },
+                {
+           			"timing": 0.5,
+					"exits": [4, 6],
+                    "type": "rat",
+                    "count": 2 
+                },
+                {
+					"exits": [5, 7],
+                    "type": "rat",
+                    "count": 2 
+                },
+                {
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+                    "type": "octopus",
+                    "count": 4 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 2,
+            "interval": 0.65,
+            "reward": 20,
+            "level": 42,
+            "units": [
+                {
+           			"timing": 0,
+					"exits": [2, 4],
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+                    "type": "rat",
+                    "count": 8 
+                },
+                {
+                    "type": "gull",
+                    "count": 8 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 70,
+            "timing": 0,
+            "interval": 1,
+            "reward": 600,
+            "level": 35,
+            "units": [
+                {
+					"exits": [3],
+                    "type": "kraken",
+                    "count": 1
+                },
+                {
+					"exits": [4],
+                    "type": "kraken",
+                    "count": 1
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0.5,
+            "interval": 2.5,
+            "reward": 24,
+            "level": 46,
+            "units": [
+                {
+                    "type": "rat",
+                    "count": 6
+                },
+                {
+                    "type": "crab",
+                    "count": 5
+                },
+                {
+					"exits": [0, 1],
+                    "type": "octopus",
+                    "count": 4
+                },
+                {
+					"exits": [6, 7],
+                    "type": "octopus",
+                    "count": 4
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1,
+            "interval": 1.2,
+            "reward": 24,
+            "level": 48,
+            "units": [
+                {
+					"exits": [2, 4],
+                    "type": "rat",
+                    "count": 4
+                },
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 4
+                },
+                {
+					"exits": [2, 4],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+					"exits": [3, 5],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+                    "type": "octopus",
+                    "count": 4 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.5,
+            "interval": 0.75,
+            "reward": 24,
+            "level": 54,
+            "units": [
+                {
+					"exits": [0, 2],
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+					"exits": [5, 7],
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+                    "type": "rat",
+                    "count": 8
+                },
+                {
+                    "type": "gull",
+                    "count": 4 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1,
+            "interval": 0.75,
+            "reward": 24,
+            "level": 60,
+            "units": [
+                {
+                    "type": "rat",
+                    "count": 8 
+                },
+                {
+					"exits": [1, 3],
+                    "type": "crab",
+                    "count": 4 
+                },
+                {
+					"exits": [4, 6],
+                    "type": "crab",
+                    "count": 4 
+                },
+                {
+                    "type": "gull",
+                    "count": 4 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0.6,
+            "interval": 2.4,
+            "reward": 24,
+            "level": 66,
+            "units": [
+                {
+            		"timing": 0,
+					"exits": [0, 2],
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+					"exits": [5, 7],
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+                    "type": "rat",
+                    "count": 8
+                },
+                {
+            		"timing": 0,
+					"exits": [1, 3],
+                    "type": "crab",
+                    "count": 4 
+                },
+                {
+					"exits": [4, 6],
+                    "type": "crab",
+                    "count": 4 
+                },
+                {
+                    "type": "gull",
+                    "count": 4 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1,
+            "interval": 0.75,
+            "reward": 24,
+            "level": 72,
+            "units": [
+                {
+                    "type": "octopus",
+                    "count": 6
+                },
+                {
+                    "type": "gull",
+                    "count": 6 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0.6,
+            "interval": 1.8,
+            "reward": 24,
+            "level": 78,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "crab",
+                    "count": 5 
+                },
+                {
+					"exits": [3, 5],
+                    "type": "crab",
+                    "count": 5 
+                },
+                {
+                    "type": "crab",
+                    "count": 12 
+                },
+                {
+					"exits": [2, 4],
+                    "type": "crab",
+                    "count": 5 
+                },
+                {
+					"exits": [6, 7],
+                    "type": "crab",
+                    "count": 5 
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.2,
+            "interval": 0.8,
+            "reward": 28,
+            "level": 84,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [6, 7],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [3, 5],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [2, 4],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [5, 7],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [0, 2],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [4, 6],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [1, 3],
+                    "type": "gull",
+                    "count": 2
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1,
+            "interval": 0.75,
+            "reward": 28,
+            "level": 90,
+            "units": [
+                {
+                    "type": "rat",
+                    "count": 4 
+                },
+                {
+					"exits": [5, 7],
+                    "type": "crab",
+                    "count": 3
+                },
+                {
+					"exits": [0, 2],
+                    "type": "crab",
+                    "count": 3
+                },
+                {
+					"exits": [4, 6],
+                    "type": "crab",
+                    "count": 3
+                },
+                {
+					"exits": [1, 3],
+                    "type": "crab",
+                    "count": 3
+                }
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.5,
+            "interval": 0.75,
+            "reward": 28,
+            "level": 96,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 4
+                },
+                {
+					"exits": [6, 7],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+					"exits": [6, 7],
+                    "type": "rat",
+                    "count": 4
+                },
+                {
+					"exits": [0, 1],
+                    "type": "crab",
+                    "count": 4
+                },
+                {
+                    "type": "octopus",
+                    "count": 4
+                },
+                {
+                    "type": "gull",
+                    "count": 4
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 0.75,
+            "interval": 3,
+            "reward": 28,
+            "level": 102,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 3
+                },
+                {
+					"exits": [6, 7],
+                    "type": "crab",
+                    "count": 3
+                },
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 3
+                },
+                {
+					"exits": [2, 4],
+                    "type": "crab",
+                    "count": 3
+                },
+                {
+					"exits": [5, 7],
+                    "type": "rat",
+                    "count": 3
+                },
+                {
+					"exits": [0, 2],
+                    "type": "crab",
+                    "count": 3
+                },
+                {
+					"exits": [4, 6],
+                    "type": "rat",
+                    "count": 3
+                },
+                {
+					"exits": [1, 3],
+                    "type": "crab",
+                    "count": 3
+                },
+                {
+                    "type": "octopus",
+                    "count": 4 
+                },
+                {
+                    "type": "gull",
+                    "count": 4 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.5,
+            "interval": 0.75,
+            "reward": 28,
+            "level": 108,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 8 
+                },
+                {
+					"exits": [6, 7],
+                    "type": "rat",
+                    "count": 8 
+                },
+                {
+					"exits": [2, 4],
+                    "type": "crab",
+                    "count": 6
+                },
+                {
+					"exits": [3, 5],
+                    "type": "crab",
+                    "count": 6
+                },
+                {
+                    "type": "octopus",
+                    "count": 8 
+                },
+                {
+                    "type": "gull",
+                    "count": 8 
+                } 
+            ] 
+        },
+        {
+            "nextWave": 40,
+            "timing": 1.4,
+            "interval": 0.6,
+            "reward": 28,
+            "level": 114,
+            "units": [
+                {
+					"timing": 0,
+            		"interval": 1.4,
+                    "type": "crab",
+                    "count": 8 
+                },
+                {
+					"timing": 0,
+            		"interval": 1.4,
+                    "type": "octopus",
+                    "count": 8 
+                },
+                {
+					"exits": [0, 1],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [6, 7],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [3, 5],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [2, 4],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [5, 7],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [0, 2],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [4, 6],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [1, 3],
+                    "type": "rat",
+                    "count": 2
+                },
+                {
+					"exits": [0, 1],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [6, 7],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [3, 5],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [2, 4],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [5, 7],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [0, 2],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [4, 6],
+                    "type": "gull",
+                    "count": 2
+                },
+                {
+					"exits": [1, 3],
+                    "type": "gull",
+                    "count": 2
+                }
+            ] 
+        },
+        {
+            "nextWave": -1,
+            "timing": 0.5,
+            "interval": 0.75,
+            "reward": 28,
+            "level": 110,
+            "units": [
+                {
+					"exits": [0, 1],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [6, 7],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [3, 5],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [2, 4],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [5, 7],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [0, 2],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+					"exits": [4, 6],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+            		"timing": 5,
+					"exits": [1, 3],
+                    "type": "gull",
+                    "count": 3
+                },
+                {
+           			"level": 85,
+            		"timing": 3,
+					"exits": [0],
+                    "type": "kraken",
+                    "count": 1 
+                },
+                {
+           			"level": 85,
+            		"timing": 3,
+					"exits": [7],
+                    "type": "kraken",
+                    "count": 1 
+                },
+                {
+           			"level": 85,
+            		"timing": 3,
+					"exits": [3],
+                    "type": "kraken",
+                    "count": 1 
+                },
+                {
+           			"level": 85,
+					"exits": [4],
+                    "type": "kraken",
+                    "count": 1 
+                } 
+            ] 
+        } 
+    ]
+}

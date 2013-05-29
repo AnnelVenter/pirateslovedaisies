@@ -1,0 +1,46 @@
+{
+    "idles": [
+        {
+            "frequency": 5,
+            "count": 4,
+            "sprites": [
+                "effectGrassLarge", 250, 100,                
+				
+				"effectGrassPatch", 100, 550,
+				
+                "effectWindLarge", 70, 530,
+				
+				"effectWindSmall", 870, 130
+				
+            ] 
+        },
+        {
+            "frequency": 1,
+            "count": 7,
+            "sprites": [
+				"effectGrassPatch", 870, 120,
+				"effectGrassPatch", 900, 140,
+				
+				"effectGrassLarge", 515, 300,
+				"effectGrassLarge", 460, 330,
+				"effectGrassLarge", 510, 340,
+				"effectGrassLarge", 470, 370,
+				
+				"effectSeaGrass", 175, 450,	
+				"effectSeaGrass", 580, 270,
+				"effectSeaGrass", 845, 590,
+				"effectSeaGrass", 770, 90
+            ] 
+        },
+        {
+            "frequency": 2,
+            "count": 2,
+            "sprites": [
+				"effectWavecap", 25, 70, 
+				"effectWavecap", 15, 150, 
+                "effectWavecap", 960, 580,
+				"effectWavecap", 950, 600  				
+            ] 
+        } 
+    ]
+}
